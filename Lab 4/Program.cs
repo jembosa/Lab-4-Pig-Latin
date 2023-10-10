@@ -30,8 +30,7 @@
                             Console.Write("\nPlease enter a line to be translated.");
                         }
                         else
-                        {
-                            // Convert each word to a lowercase before translating
+                        {                          
                             PiglatinText = PiglatinText + " " + TranslateWords(allwords[index]);
                         }
                     }
